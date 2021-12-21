@@ -5,10 +5,10 @@ import numpy as np
 
 import tensorflow as tf
 
+from generator import Autoencoder
 from util.dataset import DatasetManager
 from discriminator import Discriminator
 from util.stats import get_top_results
-
 
 if __name__ == "__main__":
     # Start the argument parser
