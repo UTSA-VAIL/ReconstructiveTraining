@@ -74,13 +74,14 @@ python3 gan.py \
 ## Evaluation
 In order to evaluate the defense, you need to run the following command:
 ```sh
-python eval_defense.py \
+python eval.py \
 --input_dir PATH_TO_IMAGES_DIRECTORY \
 --labels_file PATH_TO_LABELS_FILE \
 --discriminator_config_file PATH_TO_DISCRIMINATOR_CONFIG \
 --weights_dir PATH_WHERE_MODEL_WEIGHTS_WERE_STORED \
 --image_size HEIGHT WIDTH COLOR \
---num_classes NUM_OF_UNIQUE_CLASSES
+--num_classes NUM_OF_UNIQUE_CLASSES \
+--defense \ 
 ```
 
 ## Citations
