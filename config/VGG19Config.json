@@ -1,0 +1,22 @@
+{
+    "module": "vgg19",
+    "model": "VGG19",
+    "weights": "imagenet",
+    "classes": 1000,
+    "image_width": 224,
+    "image_height": 224,
+    "image_channels": 3,
+    "clip_min": [
+        -103.939,
+        -116.779,
+        -123.68
+    ],
+    "clip_max": [
+        151.061,
+        138.22101,
+        131.32
+    ],
+    "mode": "caffe",
+    "verbose": 1,
+    "workers": 36
+}
