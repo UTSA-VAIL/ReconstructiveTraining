@@ -90,6 +90,6 @@ If you are using our code in a publication, please use the citation provided bel
     @inproceedings{icesurface2018wacv,
         title = {Reconstructive Training for Real-World Robustness in Image Classification},
         author = {David Patrick and Michael Geyer and Richard Tran and Amanda Fernandez},
-        booktitle = {???},
+        booktitle = {WACV (Workshops)},
         year = {2022}
     }  
