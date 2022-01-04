@@ -1,5 +1,6 @@
 # Reconstructive Training for Real-World Robustness in Image Classification
 This is a Tensorflow 2 implementation for our DNOW Workshop paper "Reconstructive Training for Real-World Robustness in Image Classification".
+https://openaccess.thecvf.com/content/WACV2022W/DNOW/html/Patrick_Reconstructive_Training_for_Real-World_Robustness_in_Image_Classification_WACVW_2022_paper.html
 
 ## Docker Environment
 Reconstructive training uses a Docker container to train the defense. We have provided a Docker container at https://hub.docker.com/repository/docker/utsavisionailab/reconstructivetraining.
@@ -87,9 +88,11 @@ python eval.py \
 ## Citations
 If you are using our code in a publication, please use the citation provided below
     
-    @inproceedings{icesurface2018wacv,
-        title = {Reconstructive Training for Real-World Robustness in Image Classification},
-        author = {David Patrick and Michael Geyer and Richard Tran and Amanda Fernandez},
-        booktitle = {WACV (Workshops)},
-        year = {2022}
-    }  
+   @InProceedings{Patrick_2022_WACV,
+    author    = {Patrick, David and Geyer, Michael and Tran, Richard and Fernandez, Amanda},
+    title     = {Reconstructive Training for Real-World Robustness in Image Classification},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
+    month     = {January},
+    year      = {2022},
+    pages     = {251-260}
+  }
